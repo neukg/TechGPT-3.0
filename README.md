@@ -1,7 +1,7 @@
 # TechGPT 3.0: Technology-Oriented Generative Pretrained Transformer 3.0
 Demo: [TechGPT-neukg](http://techgpt.neukg.com) 
 
-HuggingFace🤗: [neukg/TechGPT-8B](https://huggingface.co/neukg/TechGPT-3.0-Qwen3-8b)
+HuggingFace🤗: [neukg/TechGPT-14B](https://huggingface.co/neukg/TechGPT-3.0-Qwen3-14b)
 
 <p align="center">
   <a href="https://github.com/neukg/TechGPT/blob/main/LICENSE">
@@ -26,7 +26,7 @@ HuggingFace🤗: [neukg/TechGPT-8B](https://huggingface.co/neukg/TechGPT-3.0-Qwe
 | [💯系统效果](#系统效果)             | 展示了模型在部分任务上的效果              |
 
 ## 模型简介
-TechGPT-3.0 是在 TechGPT-2.0 基础上全新升级的大模型版本，采用**全量微调**方式，在 **NVIDIA A800** 上完成训练，发布了一个 8B 参数规模的模型版本**TechGPT3.0-Qwen3-8B**。相比前代，TechGPT-3.0 在原有多领域知识能力的基础上，进一步强化并新增对复杂文本的理解与处理能力，**智能风险内容拦截**、**知识图谱的推理建议**（针对简单图谱问题进行了SFT的推理压缩）、**核心信息提取**、**文本生成整合**、**多领域学科适配**以及**逻辑推理**等多项能力。
+TechGPT-3.0 是在 TechGPT-2.0 基础上全新升级的大模型版本，采用**全量微调**方式，在 **NVIDIA A800** 上完成训练，发布了一个 14B 参数规模的模型版本**TechGPT3.0-Qwen3-14B**。相比前代，TechGPT-3.0 在原有多领域知识能力的基础上，进一步强化并新增对复杂文本的理解与处理能力，**智能风险内容拦截**、**知识图谱的推理建议**（针对简单图谱问题进行了SFT的推理压缩）、**核心信息提取**、**文本生成整合**、**多领域学科适配**以及**逻辑推理**等多项能力。
 
 ## 模型亮点
 TechGPT-3.0 在继承了 TechGPT-3.0 的能力上进行了重要的改进，具有以下几项模型亮点功能：
@@ -48,12 +48,12 @@ TechGPT-3.0 在继承了 TechGPT-3.0 的能力上进行了重要的改进，具�
 | TechGPT-2.0-Atom    | 全量微调 | 7B   |  [🤗HF](https://huggingface.co/neukg/TechGPT-2.0-atom-hf)   | [wisemodel社区](https://www.wisemodel.cn/models/neukg/TechGPT-2.0-Atom) | [<img src="https://g.alicdn.com/sail-web/maas/1.10.1/static/modelscopeIcon.cd89353f.svg" height="12">](https://modelscope.cn/models/neukg01/TechGPT-2.0-Atom) |
 | TechGPT-2.0-QLora   | Lora微调 | 3 GB |  [🤗HF](https://huggingface.co/neukg/TechGPT-2.0-QLora-hf)  | [wisemodel社区](https://www.wisemodel.cn/models/neukg/TechGPT-2.0-QLora) | [<img src="https://g.alicdn.com/sail-web/maas/1.10.1/static/modelscopeIcon.cd89353f.svg" height="12">](https://modelscope.cn/models/neukg01/TechGPT-2.0-QLora) |
 | TechGPT-2.0-Qwen1.5 | 全量微调 | 7B   | [🤗HF](https://huggingface.co/neukg/TechGPT-2.0-Qwen1.5-7b) | [wisemodel社区](https://www.wisemodel.cn/models/neukg/TechGPT-2.0-Qwen1.5) | [<img src="https://g.alicdn.com/sail-web/maas/1.10.1/static/modelscopeIcon.cd89353f.svg" height="12">](https://modelscope.cn/models/neukg01/TechGPT-2.0-Qwen1.5-7b) |
-| TechGPT-3.0-Qwen3🆕  | 全量微调 | 14B  |  [🤗HF](https://huggingface.co/neukg/TechGPT-3.0-Qwen3-8b)  | [wisemodel社区](https://wisemodel.cn/models/neukg/TechGPT-3.0-Qwen3/intro) | [<img src="https://g.alicdn.com/sail-web/maas/1.10.1/static/modelscopeIcon.cd89353f.svg" height="12">]([TechGPT-3.0-Qwen3-14b · 模型库](https://www.modelscope.cn/models/neukg01/TechGPT-3.0-Qwen3-14b)) |
+| TechGPT-3.0-Qwen3🆕  | 全量微调 | 14B  | [🤗HF](https://huggingface.co/neukg/TechGPT-3.0-Qwen3-14b)  | [wisemodel社区](https://www.wisemodel.cn/models/neukg/TechGPT-3.0-Qwen3-14b/intro) | [<img src="https://g.alicdn.com/sail-web/maas/1.10.1/static/modelscopeIcon.cd89353f.svg" height="12">](www.modelscope.cn/models/neukg01/TechGPT-3.0-Qwen3-14b) |
 
 ### 模型说明
 **TechGPT3 在不同规模且经过扩充后的**TechKG大规模的中、英文学术语料支持下训练完成。
 
-我们TechGPT-3的**8B版本**的模型已经在Hugging Face和GitHub上开源，后续其他参数的版本将会开源，欢迎大家使用并提出宝贵的意见。
+我们TechGPT-3的**14B版本**的模型已经在Hugging Face和GitHub上开源，后续其他参数的版本将会开源，欢迎大家使用并提出宝贵的意见。
 
 ### 模型体验
 我们目前对外提供 TechGPT3.0 的在线服务：http://101.35.26.48:5050
@@ -82,7 +82,7 @@ pip install transformers
 pip install torch
 ```
 
-[TechGPT3-Qwen3-8B Example:](https://github.com/neukg/TechGPT-2.0/blob/main/pytorch_inference/techgpt2-alpaca_infer.py)
+[TechGPT3-Qwen3-14B Example:](https://github.com/neukg/TechGPT-2.0/blob/main/pytorch_inference/techgpt2-alpaca_infer.py)
 
 ``` python
 import json
@@ -509,6 +509,3 @@ print(f"新样本预测结果: {predicted_class}")
   howpublished = {\url{https://github.com/neukg/TechGPT-3.0}},
 }
 ```
-
-
-
